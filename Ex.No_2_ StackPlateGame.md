@@ -49,9 +49,7 @@ def plate_stack_game():
         print("2. Remove a plate")
         print("3. View stack")
         print("4. Exit")
-
         choice = input("Enter your choice: ")
-
         if choice == '1':
             plate = input("Enter the name of the plate to add: ")
             plate_stack.push(plate)
@@ -64,7 +62,6 @@ def plate_stack_game():
             break
         else:
             print("Invalid choice. Please try again.")
-
 if __name__ == "__main__":
     plate_stack_game()
 ```
