@@ -16,21 +16,17 @@ To write a python program to simulate the process of stacking plates.
 class PlateStack:
     def __init__(self):
         self.stack = []
-
     def is_empty(self):
         return len(self.stack) == 0
-
     def push(self, plate):
         self.stack.append(plate)
         print(f"Plate '{plate}' added to the stack.")
-
     def pop(self):
         if self.is_empty():
             print("The stack is empty. No plates to remove.")
         else:
             removed_plate = self.stack.pop()
             print(f"Plate '{removed_plate}' removed from the stack.")
-
     def view_stack(self):
         if self.is_empty():
             print("The stack is empty.")
@@ -38,11 +34,9 @@ class PlateStack:
             print("Current stack of plates:")
             for plate in reversed(self.stack):
                 print(plate)
-
 def plate_stack_game():
     plate_stack = PlateStack()
     print("Welcome to the Plate Stack Game!")
-
     while True:
         print("\nChoose an option:")
         print("1. Add a plate")
@@ -65,7 +59,6 @@ def plate_stack_game():
 if __name__ == "__main__":
     plate_stack_game()
 ```
-
 ### Output:
 ![image](https://github.com/user-attachments/assets/53cc5fd0-4f1a-48f0-8796-ab91aa1ba845)
 
