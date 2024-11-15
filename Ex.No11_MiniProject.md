@@ -63,7 +63,8 @@ if __name__ == "__main__":
         exitmessage = main()
 ```
 ### Output:
-https://github.com/mx0c/super-mario-python/raw/master/img/pics.png
+![image](https://github.com/user-attachments/assets/aa0338ea-8ea1-4970-b7ea-73ba945e3543)
+
 
 ### Result:
 Thus the simple  game was implemented using 
